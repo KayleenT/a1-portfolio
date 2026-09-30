@@ -1,7 +1,22 @@
+@keyframes moveRight {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
 .container{
      max-width: 1200px;
      margin: 0 auto;
      padding: 60px 20vw;
+}
+
+.featured{
+     max-width: 1200px;
+     margin: 0 auto;
+     border-bottom: 0.5px solid #d5d5d5;
 }
 
 body{
@@ -26,3 +41,8 @@ p{
     font-weight: 50;
     margin-bottom: 30px;
 }
+
+.spin{
+    animation: moveRight 9s linear infinite;
+}
+
