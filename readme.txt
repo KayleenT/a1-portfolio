@@ -23,15 +23,13 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 (a) Basic features
 
-My portfolio includes organized headers, paragraph text sections, an image, 
+My portfolio includes organized headers, paragraph text sections, an image, and nested containers to organize my content + create a layered paper effect.
 
 (b) CSS features
 
-
+My CSS includes gradient backgrounds, specific design configurations for different elements identified by class or element type, imported fonts, and a spinning animation.
 
 (c) Advanced features
-
-
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
@@ -40,15 +38,28 @@ My portfolio includes organized headers, paragraph text sections, an image,
 
 4. How long, in hours, did it take you to complete this assignment?
 
-
+This assignment took me about 20 hours! This includes though the time I spent to design it on Figma first before building it out. 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 
+Youtube video about designing and building a simple html/css personal portfolio:
+https://youtu.be/7vp2Pc_0WLs?si=636qGbrmx92nj8sZ
 
+W3Schools CSS reference page: 
+https://www.w3schools.com/cssref/index.php
+
+W3Schools HTML reference page:
+https://www.w3schools.com/TAGS/default.ASP
+
+How to make something spin with CSS youtube video:
+https://www.youtube.com/watch?v=VJOtcoNmekQ
+
+I used generative AI to guide me in more specific things such as stacking my photo on top of other elements in a responsive way,or why sometimes the code provided by Figma dev mode did not look the same as my design and how to make my elements match my original design more closely. 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
-
+I consulted Annabella Luy, we discussed different cool features, including the animations, as well as using Figma dev mode to help us style our components in the CSS.
 
 7. Is there anything special we need to know in order to run your code?
 
+No.

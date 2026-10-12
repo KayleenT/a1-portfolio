@@ -167,6 +167,6 @@ p{
     transform: none;
     width: 70%;
     max-width: 360px;
-    margin: 30px auto 0;   /* centered under the text */
+    margin: 30px auto 0;  
   }
 }
