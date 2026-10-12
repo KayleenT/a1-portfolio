@@ -31,7 +31,7 @@ body{
     border-radius: 30px;
     background: #F7F8EE;
     padding: 30px;
-    font-family: "Grotesk";
+    font-family: "Grotesk", Helvetica, Arial, sans-serif;
     color: #9C443C;
      
 }
@@ -62,6 +62,7 @@ body{
     h1 {
         white-space: nowrap;
     }
+    
 
     h3 {
          display: inline-block;
@@ -69,7 +70,7 @@ body{
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
-        font-family: "Satoshi-Bold";
+        font-family: "Satoshi-Bold", Helvetica, Arial, sans-serif;
     }
 }
 
@@ -101,20 +102,20 @@ h2{
     font-size: 150%;
     font-weight:540;
     margin: 1%;
-    font-family: "Satoshi-Bold";
+    font-family: "Satoshi-Bold", Helvetica, Arial, sans-serif;
 }
 
 h3{
     font-size: 120%;
     font-weight:540;
     margin: 1%;
-    font-family: "Satoshi-Bold";
+    font-family: "Satoshi-Bold", Helvetica, Arial, sans-serif;
 }
 
 p{
     font-size: 1rem;
     margin: 1.5%;
-    font-family: "Satoshi-Light";
+    font-family: "Satoshi-Light", Helvetica, Arial, sans-serif;
 }
 
 .header {
@@ -173,30 +174,28 @@ p{
 .footer{
     border-radius: 30px;
     padding: 30px;
-    font-family: "Grotesk";
+    font-family: "Grotesk", Helvetica, Arial, sans-serif;
     color: #9C443C;
     margin: 8px;  display: flex;
     justify-content: center;
     gap: 24px;
-    font-family: "Satoshi-Bold";
+    font-family: "Satoshi-Bold", Helvetica, Arial, sans-serif;
 }
 
-.a{
+.footer a{
     color:#7cc381;
 }
 
-/* Change color of a link while it is actively being clicked */
-a:active {
-  color: #eb616f; /* Puts a bright orange-red color */
+
+.footer a:active {
+  color: #eb616f;
 }
 
 
-/* Change color of links that have already been clicked */
-a:visited {
-  color: #a7508a; /* Puts a custom purple color */
+
+.footer a:visited {
+  color: #a7508a;
 }
-
-
 
 .border{
     border-radius: 3%;
@@ -204,4 +203,18 @@ a:visited {
     padding: 20px;
 }
 
+.button {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 999px;
+  background: #9C443C;
+  color: #FFFEF6;
+  font-family: "Grotesk", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.button {
+  background: #7d342e; 
+}
 
