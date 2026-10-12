@@ -23,7 +23,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 (a) Basic features
 
-
+My portfolio includes organized headers, paragraph text sections, an image, 
 
 (b) CSS features
 
