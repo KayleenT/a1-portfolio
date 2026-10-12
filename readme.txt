@@ -23,11 +23,10 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 (a) Basic features
 
-My portfolio includes organized headers, paragraph text sections, an image, and nested containers to organize my content + create a layered paper effect.
-
+My portfolio includes organized headers with paragraph text sections, an image with alt text, and a link to an external page.
 (b) CSS features
 
-My CSS includes gradient backgrounds, specific design configurations for different elements identified by class or element type, imported fonts, and a spinning animation.
+My CSS includes modified padding and margins to organize the content, and modified text colors and containers to be visually appealing. 
 
 (c) Advanced features
 

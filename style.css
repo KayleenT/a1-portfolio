@@ -26,7 +26,7 @@ body{
     border-radius: 30.764px;
     background: #FFFEF6;
     padding : 10px;
-    margin: 5% auto;
+    margin: auto;
 }
 
 
@@ -45,29 +45,39 @@ body{
      border-bottom: 0.5px solid #d5d5d5;
 }
 
+.intro-block
+ {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin-bottom : 3%;
+ }
 .intro {
-position: relative;
-  padding: 30px;
-  border-radius: 20px;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15%;
+    margin-top: 45px;
+    position: relative;
+    padding: 30px;
+    border-radius: 20px;
 }
 
 .intro-text{
-    max-width: 60%; 
+    min-width: 0;
+}
+
+.intro-text h1{
+    white-space: nowrap;
+}
+
+.intro-text h2{
+    white-space: nowrap;
 }
 
 .photo-stack {
-  position: absolute;
-  right: -3%;
-  top: 100%;
-  transform: translateY(-50%); 
-  width: clamp(220px, 30vw, 400px);
+  flex-shrink: 0;
+  width: 30%;
 }
 
 .photo-stack img{
-  width: 90%;
+  width: 100%;
   height: auto;
   display: block;
 }
@@ -80,13 +90,13 @@ position: relative;
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 180%;
     font-weight:600;
     margin: 1%;
 }
 
 h2{
-    font-size: 1.5rem;
+    font-size: 120%;
     font-weight:540;
     margin: 1%;
 }
@@ -99,13 +109,14 @@ p{
 }
 
 .header {
-    padding: 30px;
+    padding: 10px;
+    padding-left: 30px;
     border-radius: 20px;
-    max-width: 50%;
+
 }
 
 .project{
-    padding: 3.5%;
+    padding: 32px;
 }
 
 .project-img{
@@ -157,16 +168,4 @@ p{
     padding: 20px;
 }
 
-@media (max-width: 900px) {
-  .intro-text {
-    max-width: 100%;
-  }
 
-  .photo-stack {
-    position: static;
-    transform: none;
-    width: 70%;
-    max-width: 360px;
-    margin: 30px auto 0;  
-  }
-}
