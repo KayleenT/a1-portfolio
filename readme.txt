@@ -31,13 +31,13 @@ My CSS includes modified padding and margins to organize the content, and modifi
 
 (c) Advanced features
 
-I used nested selectors to specify the format of content within my intro section.
+I used nested selectors to specify the format of content within my intro-text section and gradient text. I also used flexbox layout for my intro to place my elements side by side. 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
 
 The only checked warning I had was a CSS warning: 
 "-webkit-backdrop-filter is a vendor extension"
-I ignored this warning because it its just a visual effect on the fill color of my container that is not part of the official CSS standard. Without it the site still works fine on older browsers.
+I ignored this warning because it is just a visual effect on the fill color of my container that is not part of the official CSS standard. Without it the site still works fine on older browsers.
 
 I did not have any accessibility errors. There are only elements marked as potential problems, but these come from the checker not knowing what the image is actually of.
 
@@ -59,7 +59,7 @@ https://www.w3schools.com/TAGS/default.ASP
 How to make something spin with CSS youtube video:
 https://www.youtube.com/watch?v=VJOtcoNmekQ
 
-I used generative AI to guide me in more specific things such as stacking my photo on top of other elements in a responsive way,or why sometimes the code provided by Figma dev mode did not look the same as my design and how to make my elements match my original design more closely. 
+I used generative AI to guide me in more specific things such as stacking my photo on top of other elements in a responsive way,or why sometimes the code provided by Figma dev mode did not look the same as my design and how to make my elements match my original design more closely. I also used it to write a description of my project.
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 

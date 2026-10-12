@@ -1,12 +1,3 @@
-@keyframes moveRight {
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-}
-
 @font-face {
   font-family: 'Grotesk';
   src: url('fonts/AlteHaasGroteskBold.ttf') format('opentype');
@@ -66,14 +57,14 @@ body{
 }
 
 .intro-text {
-min-width: 0;
+    min-width: 0;
 
     h1 {
-     white-space: nowrap;
+        white-space: nowrap;
     }
 
     h3 {
-    display: inline-block;
+         display: inline-block;
         background: linear-gradient(to right, #9C443C, #6aaf15);
         -webkit-background-clip: text;
         background-clip: text;
