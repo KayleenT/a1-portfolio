@@ -67,8 +67,12 @@ body{
     white-space: nowrap;
 }
 
-.intro-text h2{
-    white-space: nowrap;
+.intro-text h3{
+    display: inline-block;
+    background: linear-gradient(to right, #9C443C, #6aaf15);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;    
 }
 
 .photo-stack {
@@ -96,6 +100,12 @@ h1{
 }
 
 h2{
+    font-size: 150%;
+    font-weight:540;
+    margin: 1%;
+}
+
+h3{
     font-size: 120%;
     font-weight:540;
     margin: 1%;

@@ -10,20 +10,21 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+10/10
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
 
 My portfolio includes organized headers with paragraph text sections, an image with alt text, and a link to an external page.
+
 (b) CSS features
 
 My CSS includes modified padding and margins to organize the content, and modified text colors and containers to be visually appealing. 
@@ -31,10 +32,14 @@ My CSS includes modified padding and margins to organize the content, and modifi
 (c) Advanced features
 
 
+
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
 
+The only checked warning I had was a CSS warning: 
 "-webkit-backdrop-filter is a vendor extension"
 I ignored this warning because it its just a visual effect on the fill color of my container that is not part of the official CSS standard. Without it the site still works fine on older browsers.
+
+I did not have any accessibility errors. There are only elements marked as potential problems, but these come from the checker not knowing what the image is actually of.
 
 4. How long, in hours, did it take you to complete this assignment?
 
