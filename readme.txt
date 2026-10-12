@@ -33,7 +33,8 @@ My CSS includes modified padding and margins to organize the content, and modifi
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
 
-
+"-webkit-backdrop-filter is a vendor extension"
+I ignored this warning because it its just a visual effect on the fill color of my container that is not part of the official CSS standard. Without it the site still works fine on older browsers.
 
 4. How long, in hours, did it take you to complete this assignment?
 
