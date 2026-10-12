@@ -20,6 +20,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('fonts/Satoshi-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body{
     max-width: 1000px;
@@ -59,20 +65,21 @@ body{
     border-radius: 20px;
 }
 
-.intro-text{
-    min-width: 0;
-}
+.intro-text {
+min-width: 0;
 
-.intro-text h1{
-    white-space: nowrap;
-}
+    h1 {
+     white-space: nowrap;
+    }
 
-.intro-text h3{
+    h3 {
     display: inline-block;
-    background: linear-gradient(to right, #9C443C, #6aaf15);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;    
+        background: linear-gradient(to right, #9C443C, #6aaf15);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-family: "Satoshi-Bold";
+    }
 }
 
 .photo-stack {
@@ -103,12 +110,14 @@ h2{
     font-size: 150%;
     font-weight:540;
     margin: 1%;
+    font-family: "Satoshi-Bold";
 }
 
 h3{
     font-size: 120%;
     font-weight:540;
     margin: 1%;
+    font-family: "Satoshi-Bold";
 }
 
 p{
@@ -169,6 +178,33 @@ p{
 .spin{
     animation: moveRight 9s linear infinite;
 }
+
+.footer{
+    border-radius: 30px;
+    padding: 30px;
+    font-family: "Grotesk";
+    color: #9C443C;
+    margin: 8px;  display: flex;
+    justify-content: center;
+    gap: 24px;
+    font-family: "Satoshi-Bold";
+}
+
+.a{
+    color:#7cc381;
+}
+
+/* Change color of a link while it is actively being clicked */
+a:active {
+  color: #eb616f; /* Puts a bright orange-red color */
+}
+
+
+/* Change color of links that have already been clicked */
+a:visited {
+  color: #a7508a; /* Puts a custom purple color */
+}
+
 
 
 .border{
