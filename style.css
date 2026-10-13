@@ -75,12 +75,13 @@ body{
     }
     
 
-    h3 {
-         display: inline-block;
+    h2 {
+        display: inline-block;
         background: linear-gradient(to right, #9C443C, #6aaf15);
         background-clip: text;
         color: transparent;
         font-family: "Satoshi-Bold", Helvetica, Arial, sans-serif;
+        font-size:  120%;
     }
 }
 
