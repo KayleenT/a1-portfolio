@@ -31,7 +31,7 @@ My CSS includes modified padding and margins to organize the content, and modifi
 
 (c) Advanced features
 
-I used nested selectors to specify the format of content within my intro-text section and gradient text. I also used flexbox layout for my intro to place my elements side by side. 
+I used nested selectors to specify the format of content within my intro-text section and gradient text. I also used flexbox layout for my intro to place my elements side by side. I also added navigation to different pages for my project section.
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
 
