@@ -24,8 +24,8 @@ html {
 
 body{
     max-width: 1000px;
-    border-radius: 30.764px;
-    background: #FFFEF6;
+    border-radius: 30px;
+    background: #f5f2e4;
     padding : 10px;
     margin: auto;
 }
@@ -33,17 +33,23 @@ body{
 
 .container{
     border-radius: 30px;
-    background: #F7F8EE;
+    background: #cbdba2;
     padding: 30px;
     font-family: "Grotesk", Helvetica, Arial, sans-serif;
     color: #9C443C;
      
 }
 
-.featured{
-     max-width: 1200px;
-     margin: 0 auto;
-     border-bottom: 0.5px solid #d5d5d5;
+.panel{
+    border-radius: 30px;
+    background: #FFFEF6;
+    padding: 3%;
+}
+
+.border{
+    border-radius: 30px;
+    background: var(--background-gradiuent, linear-gradient(180deg, #FFFEF6 0%, #E5E4C0 45.67%, #F5F5F5 100%));
+    padding: 20px;
 }
 
 .intro-block
@@ -72,7 +78,6 @@ body{
     h3 {
          display: inline-block;
         background: linear-gradient(to right, #9C443C, #6aaf15);
-        -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
         font-family: "Satoshi-Bold", Helvetica, Arial, sans-serif;
@@ -85,6 +90,7 @@ body{
 
 
     /* photo lifts and tilts when hovered over */
+
     img {
         transition: transform 0.25s ease;
     }
@@ -102,11 +108,6 @@ body{
 }
 
 
-.panel{
-    border-radius: 30.764px;
-    background: #FFFEF6;
-    padding: 3%;
-}
 
 h1{
     font-size: 180%;
@@ -141,6 +142,8 @@ p{
 
 }
 
+/* for project thumbnail sections */
+
 .project{
     padding: 32px;
 
@@ -163,28 +166,6 @@ p{
     }
 }
 
-.glass {
-  border-radius: 24px;
-  border: 1.5px solid rgba(255, 236, 236, 0.9);
-
-  background: radial-gradient(
-    ellipse at 50% 55%,
-    rgba(222, 200, 194, 0.55) 0%,
-    rgba(234, 220, 213, 0.40) 55%,
-    rgba(250, 246, 240, 0.25) 100%
-  );
-
-  backdrop-filter: blur(20px) saturate(140%);
-  -webkit-backdrop-filter: blur(20px) saturate(140%);
-
-  box-shadow:
-    inset 0 0 0 1px rgba(255, 255, 255, 0.55),
-    inset 0 0 18px rgba(255, 255, 255, 0.65),
-    inset 0 2px 6px rgba(255, 255, 255, 0.8),
-
-    0 22px 49px rgba(118, 4, 4, 0.10),
-    0 90px 90px rgba(118, 4, 4, 0.06);
-}
 
 .project-img img{
     border-radius: 20px;
@@ -195,9 +176,7 @@ p{
 
 }
 
-.spin{
-    animation: moveRight 9s linear infinite;
-}
+/* footer bar format */
 
 .footer{
     border-radius: 30px;
@@ -208,28 +187,36 @@ p{
     justify-content: center;
     gap: 24px;
     font-family: "Satoshi-Bold", Helvetica, Arial, sans-serif;
+
+    /* link colors */
+
+    .button{
+        background:#fff7f5;
+    }
+
+    .button:hover{
+        background:#fff1ef
+    }
+
+    a{
+        display: block;
+        padding: 10px 22px;
+        border-radius: 999px;
+        color: #9C443C;
+        text-decoration: none;
+        color:#7cc381;
+    }
+
+    a:hover {
+        color: #ed949d;
+    }
+
+    a:visited {
+        color: #a7508a;
+    }
 }
 
-.footer a{
-    color:#7cc381;
-}
-
-
-.footer a:active {
-  color: #eb616f;
-}
-
-
-
-.footer a:visited {
-  color: #a7508a;
-}
-
-.border{
-    border-radius: 10%;
-    background: var(--background-gradiuent, linear-gradient(180deg, #FFFEF6 0%, #E5E4C0 45.67%, #F5F5F5 100%));
-    padding: 20px;
-}
+/* buttons with visual hover */
 
 .button {
   display: inline-block;
@@ -241,17 +228,14 @@ p{
   text-decoration: none;
   transition: background 0.2s;
 }
-
 .button:hover {
   background: #692720; 
 }
 
+/* nav bar at the top to go to diff pages */
 .nav{
-    position: sticky;
-    top: 16px;
-    z-index: 100;
+    margin : auto;
     width: fit-content;
-    margin: 0 auto 32px;
     padding: 6px;
     border-radius: 999px; 
 
@@ -272,11 +256,35 @@ p{
         transition: background 0.25s ease;
     }
 
+    /* cool hover gradient */
     a:hover{
         background: linear-gradient(to right, #9C443C, #6aaf15);
-        -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
     }
+}
+
+/* glass effect */
+
+.glass {
+  border-radius: 24px;
+  border: 1.5px solid rgba(255, 236, 236, 0.9);
+
+  background: radial-gradient(
+    ellipse at 50% 55%,
+    rgba(222, 200, 194, 0.55) 0%,
+    rgba(234, 220, 213, 0.40) 55%,
+    rgba(250, 246, 240, 0.25) 100%
+  );
+
+  backdrop-filter: blur(20px) saturate(140%);
+
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.55),
+    inset 0 0 18px rgba(255, 255, 255, 0.65),
+    inset 0 2px 6px rgba(255, 255, 255, 0.8),
+
+    0 22px 49px rgba(118, 4, 4, 0.10),
+    0 90px 90px rgba(118, 4, 4, 0.06);
 }
 
