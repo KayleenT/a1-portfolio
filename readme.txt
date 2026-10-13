@@ -39,7 +39,7 @@ I did not have any accessibility errors. There are only elements marked as poten
 
 4. How long, in hours, did it take you to complete this assignment?
 
-This assignment took me about 20 hours! This includes though the time I spent to design it on Figma first before building it out. 
+This assignment took me about 30 hours! This includes though the time I spent to design it on Figma first before building it out. 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 
