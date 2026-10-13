@@ -1,4 +1,4 @@
---Readme document for *YOUR NAME*, *YOUR_EMAIL@uci.edu*--
+--Readme document for Kayleen Tran, kaylett3@uci.edu--
 
 A reminder on academic integrity, as described in the syllabus.
 
@@ -10,14 +10,14 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-10/10
+9/10
 - 1/1 Readme
 - 2/2 Basic HTML content
 - 1/1 Basic CSS styling
 - 1/1 Advanced feature
 - 2/2 Responsive layout
 - 1/1 Passes validation checks
-- 2/2 Embraces spirit of the assignment
+- 1/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
@@ -54,6 +54,8 @@ https://www.w3schools.com/TAGS/default.ASP
 
 How to make something spin with CSS youtube video:
 https://www.youtube.com/watch?v=VJOtcoNmekQ
+
+I also used Figma dev mode to some extent, but it could only do so much, 
 
 I used generative AI to guide me to understand why sometimes the code provided by Figma dev mode did not look the same as my design and how to make my elements match my original design more closely, but the only code it generated was to help me make the glass effect for my CSS style sheet. The rest of my code is code that I wrote using online resources and with help from questions that I asked AI, but didnt use the code it provided.   I also used it to write a description of my project.
 
